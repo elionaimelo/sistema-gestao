@@ -6,29 +6,183 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Sistema de gestão</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
 
-        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- fonte customizada -->
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
+
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">Seu navegador está <strong>desatualizado</strong>. Por favor <a href="http://browsehappy.com/">atualize seu navegador</a> para uma melhor navegação</p>
-        <![endif]-->
+
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <img src="assets/img/logo.png" class="img-responsive logo" alt="" />
+                    </a>
+                </div>
+
+              <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                  <ul class="nav navbar-nav nav-custom">
+                      <li class="hidden">
+                          <a href="#page-top"></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#intro">Página inicial</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#">Acessar sistema de gestão</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#">DAB/PMAQ</a>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+      <!-- Intro Section -->
+      <section id="intro" class="intro-section">
+          <div class="container">
+              <div class="row">
+                <div class="content">
+                  <div class="col-lg-6">
+                    <img src="assets/img/map.png" alt="" class="img-responsive" />
+                  </div>
+                  <div class="col-lg-6">
+                    <h1>BEM-VINDO AO <strong>PMAQ</strong></h1>
+                    <p>
+                      No 3º ciclo do PMAQ começou a avaliação externa, em todo o país 11425 equipes de atenção básica, destas 8647 com saúde bucal. novas equipes também estão querendo participar deste novo ciclo, são 3420 equipes ranqueadas até o momento. os nasf estão sendo ranqueados, e até o momento, são 1804 em todo o brasil.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
 
 
-        <p>Hello world! </p>
+      <section id="duvidas" class="duvidas-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <img src="assets/img/img-duvidas.jpg" class="img-responsive center-block" alt="">
+                  </div>
+                  <div class="col-lg-6">
+                      <h1 class="border-bottom">DÚVIDAS</h1>
+                      <p><strong>
+                        LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING CONSECTETUR ADIPISCINGCONSECTETUR ADIPISCING ELI ?
+                      </strong></p>
+                      <p>
+                        Aenean dapibus sapien at dapibus scelerisque
+                      </p>
+                      <p><strong>
+                        LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING CONSECTETUR ADIPISCING CONSECTETUR ADIPISCING CONSECTETUR ADIPISCINGCONSECTETUR ADIPISCINGCONSECTETUR ADIPISCING ELI ?
+                      </strong></p>
+                      <p>
+                        Aenean dapibus sapien at dapibus scelerisque
+                      </p>
+
+                      <a href="http://www.google.com.br" class="button-saiba-mais">
+                        <img src="assets/img/button-saiba-mais.png" alt="" class="img-responsive" /> Saiba mais
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
-        <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+      <section id="acomp-equipe" class="acomp-equipe-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-5">
+                      <h1 class="border-bottom">ACOMPANHAMENTO DE EQUIPE</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus sapien at dapibus scelerisque. Donec mollis bibendum dui id laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                      </p>
+
+                      <a href="http://www.google.com.br" class="button-saiba-mais inverse">
+                        <img src="assets/img/button-saiba-mais1.png" alt="" class="img-responsive" /> Saiba mais
+                      </a>
+                  </div>
+                  <div class="col-lg-6 col-lg-offset-1">
+                    <img src="assets/img/img-acomp-user.jpg" class="img-responsive center-block" alt="">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <section id="acomp-user" class="acomp-user-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                    <img src="assets/img/img-acomp-user.jpg" class="img-responsive center-block" alt="">
+                  </div>
+                  <div class="col-lg-6">
+                      <h1 class="border-bottom">ACOMPANHAMENTO DE USUÁRIO</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus sapien at dapibus scelerisque. Donec mollis bibendum dui id laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                      </p>
+
+                      <a href="http://www.google.com.br" class="button-saiba-mais">
+                        <img src="assets/img/button-saiba-mais.png" alt="" class="img-responsive" /> Saiba mais
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3">
+                <img src="assets/img/lais.png" class="img-responsive center-block" alt="" />
+              </div>
+              <div class="col-lg-2">
+                <img src="assets/img/ufrn.png" class="img-responsive center-block" alt="" />
+              </div>
+              <div class="col-lg-2">
+                <img src="assets/img/sus.png" class="img-responsive center-block" alt="" />
+              </div>
+              <div class="col-lg-2">
+                <img src="assets/img/saude.png" class="img-responsive center-block" alt="" />
+              </div>
+              <div class="col-lg-3">
+                <img src="assets/img/min-saude.png" class="img-responsive center-block" alt="" />
+              </div>
+            </div>
+          </div>
+      </footer>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
         <script src="assets/js/scripts.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/js/scrolling-nav.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
